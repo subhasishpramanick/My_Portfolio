@@ -1,5 +1,6 @@
 import React  from "react";
 import Navbar from './components/Navbar';
+import Body from './components/Body';
 
 class App extends  React.Component{
   render(){
@@ -8,6 +9,7 @@ class App extends  React.Component{
   return (
     <>
       <Navbar name="Subhasish Pramanick"/>
+      <Body/>
     </>
   );
 }
