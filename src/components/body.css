@@ -3,3 +3,10 @@
     box-shadow: 0 4px 8px 0 rgba(240, 238, 238, 0.836), 0 6px 20px 0 rgba(235, 229, 229, 0.89);
    
 }
+
+.bg-lightgreen{
+    background-color: rgb(9, 165, 9);
+}
+.bg-purple{
+    background-color: rgb(92, 13, 167);
+}
