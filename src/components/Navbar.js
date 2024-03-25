@@ -24,7 +24,7 @@ const navbar = promps =>
             <li className="nav-item d-inline mx-2 mx-sm-3">
               <a href="/" className="text-decoration-none text-info">Projects</a>
             </li>
-            <li className="nav-item d-inline mx-2 mx-sm-3">
+            <li className="nav-item d-inline mx-1 mx-sm-1">
               <a href="/" className="text-decoration-none text-info">Contact</a>
             </li>
          </ul>
