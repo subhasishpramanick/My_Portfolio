@@ -8,12 +8,12 @@ import "./body.css"
 
 const Body =()=>
     <>
-        <div className="container  text-light my-5 py-5">
+        <div className="container  text-light my-5 py-5 ">
             
-            <div className="row">
+            <div className="row ">
                 <div className="col-md-6">
-                    <div className="container bg-warning  my-3 border border-light shadow-lg  mb-5 rounded-4 ">
-                    <div className="row bg-warning rounded-4 mb-4 ">
+                    <div className="container bg-dark my-3 border border-light rounded-4 shadow2">
+                    <div className="row bg-dark rounded-4 mb-4 ">
                             <p className="lead fw-bold d-flex justify-content-center align-items-center">Hello</p>
                         </div>
                     <div className="container bg-white px-4  my-3  ">   
