@@ -5,23 +5,27 @@ import Java from "./Media/Java.png"
 import Bs from "./Media/Bootstarp.png"
 import Dj from "./Media/Django.png"
 import Ht from "./Media/Html.png"
-import Js from "./Media/Js.png"
+import Js from "./Media/JS.png"
 import Rt from "./Media/React.png"
 import My from "./Media/Mysql.png"
 import Py from "./Media/Python.png"
-import Gt from "./Media/GitHub.png"
+import Gt from "./Media/Github.png"
 import php from "./Media/php.png"
 import css from "./Media/Css.png"
 import Git from "./Media/Git.png"
 import SQL from "./Media/sql.png"
 import Windows from "./Media/Windows.png"
 import Vs from "./Media/Vscode.png"
+import Pych from "./Media/Pycharm.png"
+import Ff from "./Media/firefox.png"
+import Ch from "./Media/Chrome.png"
+import Word from "./Media/word.png"
 import "./body.css"
 
 const App= promps=>
 
     <>
-    <div className="container bg-white pt-3 pb-2 rounded-5 shadow3 mb-5">
+    <div className="container bg-white pt-5 my-5 py-5 pb-2 rounded-5 shadow3 mb-5">
 
         <div className="container bg-black rounded-4 ">
             <div className="row rounded-4 ">
@@ -130,19 +134,19 @@ const App= promps=>
                 <img src={Windows} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
               </div>
               <div className="col-md-1 col-2">
-                <img src={Vs} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+                <img src={Vs} class="img-fluid  px-2 " alt="..." height="20" width="65"/>
               </div>
               <div className="col-md-1 col-2">
-                <img src={My} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+                <img src={Ff} class="img-fluid  px-2 " alt="..." height="20" width="62"/>
               </div>
               <div className="col-md-1 col-2">
-                <img src={My} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+                <img src={Pych} class="img-fluid  px-2 " alt="..." height="20" width="62"/>
               </div>
               <div className="col-md-1 col-2">
-                <img src={My} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+                <img src={Ch} class="img-fluid  px-2 " alt="..." height="20" width="62"/>
               </div>
               <div className="col-md-1 col-2">
-                <img src={My} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+                <img src={Word} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
               </div>
            
             </div>
