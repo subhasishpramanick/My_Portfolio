@@ -1,8 +1,5 @@
 import React from "react"
-import logo1 from "./img1.png"
-import logo2 from "./img2.png"
-import logo3 from "./img3.png"
-import logo4 from "./img4.png"
+
 import C from "./Media/C.png"
 import Java from "./Media/Java.png"
 import Bs from "./Media/Bootstarp.png"
@@ -17,12 +14,14 @@ import php from "./Media/php.png"
 import css from "./Media/Css.png"
 import Git from "./Media/Git.png"
 import SQL from "./Media/sql.png"
+import Windows from "./Media/Windows.png"
+import Vs from "./Media/Vscode.png"
 import "./body.css"
 
 const App= promps=>
 
     <>
-    <div className="container bg-white pt-3 pb-5 rounded-5 shadow3 mb-5">
+    <div className="container bg-white pt-3 pb-2 rounded-5 shadow3 mb-5">
 
         <div className="container bg-black rounded-4 ">
             <div className="row rounded-4 ">
@@ -73,7 +72,7 @@ const App= promps=>
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-7 col-md-6 col-0 bg-black">Hello</div>
+                <div className="col-lg-7 col-md-6 col-0 bg-black"></div>
             </div>
             <div className="row my-4">
                 <div className="col-lg-5 col-md-6 col-12 bg-black">
@@ -121,10 +120,32 @@ const App= promps=>
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-7 col-md-6 col-0 bg-black">Hello</div>
-            </div>
-          
+                <div className="col-lg-7 col-md-6 col-0 bg-black"></div>
+            </div>  
+         
         </div>
+        <div className="row d-flex justify-content-center rounded-5">
+             
+              <div className="col-md-1 col-2">
+                <img src={Windows} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+              </div>
+              <div className="col-md-1 col-2">
+                <img src={Vs} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+              </div>
+              <div className="col-md-1 col-2">
+                <img src={My} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+              </div>
+              <div className="col-md-1 col-2">
+                <img src={My} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+              </div>
+              <div className="col-md-1 col-2">
+                <img src={My} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+              </div>
+              <div className="col-md-1 col-2">
+                <img src={My} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+              </div>
+           
+            </div>
     </div>
     </>
 export default App
