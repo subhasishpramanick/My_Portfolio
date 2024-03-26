@@ -130,7 +130,7 @@ const App= promps=>
                 <img src={Windows} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
               </div>
               <div className="col-md-1 col-2">
-                <img src={Vs} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
+                <img src={Vs} class="img-fluid  px-2 " alt="..." height="15" width="65"/>
               </div>
               <div className="col-md-1 col-2">
                 <img src={My} class="img-fluid  px-2 " alt="..." height="20" width="80"/>
