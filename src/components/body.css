@@ -21,3 +21,17 @@
     box-shadow: 0 4px 8px 0 rgba(252, 7, 211, 0.979), 0 6px 20px 0 rgba(252, 7, 211, 0.979);
     
   }
+.shadow-white{
+    
+    box-shadow: 0 4px 8px 0 rgba(252, 250, 251, 0.979), 0 6px 20px 0 rgba(252, 250, 251, 0.979);
+    
+  }
+.shadow-green{
+    
+    box-shadow: 0 4px 8px 0 rgba(23, 243, 3, 0.979), 0 6px 20px 0 rgba(2, 243, 22, 0.979);
+    
+  }
+
+.text-green{
+    color: rgb(14, 235, 14);
+}

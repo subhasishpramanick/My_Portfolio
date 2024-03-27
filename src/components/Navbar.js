@@ -2,7 +2,7 @@ import React from "react";
 import "./nav.css"
 
 const navbar = promps =>
-  <div className=" bg-dark navbar-dark navbar-expand-md py-4 container-fluid">
+  <div className=" bg-dark navbar-dark navbar-expand-lg py-4 container-fluid">
     <div className="row d-flex justify-content-around ">
       <div className="col-7 text-light d-flex justify-content-center justify-content-md-center align-item-center px-sm-5 ">
         <a href="/" className="text-decoration-none text-light  fw-bold display-5" >Subhasish Pramanick</a>
