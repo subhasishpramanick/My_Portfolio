@@ -33,8 +33,8 @@ const Body =()=>
                     </div>
                  
                 </div>
-                <div className="col-md-6  my-5  py-5">
-                    <h3 className="display-6 lead  mx-5">
+                <div className="col-md-6  my-2  py-5">
+                    <h3 className="h5 lead ">
                     I'm Subhasish Pramanick, a motivated BCA student, With 1 year of hands-on experience in web development. I am passionate about Software Engineering and innovation with a strong foundation in various programming languages and frameworks, focusing on clean code and efficient solutions. Enthusiastic about problem-solving and staying up-to-date with the latest industry trends. I am excited to collaborate on challenging projects and contribute to the ever-evolving world of technology.
                     </h3>
                 </div>

@@ -1,42 +1,37 @@
 import React from "react";
 import "./nav.css"
+import "./body.css"
 
 const navbar = promps =>
-  <div className=" bg-dark navbar-dark navbar-expand-md py-4 container-fluid">
-    <div className="row d-flex justify-content-around ">
-      <div className="col-7 text-light d-flex justify-content-center justify-content-md-center align-item-center px-sm-5 ">
-        <a href="/" className="text-decoration-none text-light  fw-bold display-5" >Subhasish Pramanick</a>
-      </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+    <div class="container-fluid">
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
+      <a class="navbar-brand text-green lead" href="/">Subhasish Pramanick</a>
+
+      <div class="navbar-collapse justify-content-md-end collapse" id="navbarsExample08" >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Centered nav only</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/">Disabled</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/">Disabled</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Disabled</a>
+          </li>
         
-        <div className="col-5 text-light d-flex justify-content-center ">
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-
-  
-         <ul className="navbar-nav d-inline">
-            <li className="nav-item d-inline mx-2 mx-sm-3">
-              <a href="/" className="text-decoration-none text-info font">Home</a>
-            </li>
-            <li className="nav-item d-inline mx-2 mx-sm-3">
-              <a href="/" className="text-decoration-none text-info font">Expertise</a>
-            </li>
-            <li className="nav-item d-inline mx-2 mx-sm-3">
-              <a href="/" className="text-decoration-none text-info font">Projects</a>
-            </li>
-            <li className="nav-item d-inline mx-1 mx-sm-1">
-              <a href="/" className="text-decoration-none text-info font">Contact</a>
-            </li>
-         </ul>
-   
-        </div>
+        </ul>
       </div>
-  
-
     </div>
-
-  </div>
-
+  </nav>
 
 export default navbar;
